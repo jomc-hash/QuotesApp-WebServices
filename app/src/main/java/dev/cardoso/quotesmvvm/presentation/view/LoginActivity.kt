@@ -41,7 +41,7 @@ class LoginActivity (): AppCompatActivity(){
             userViewModel.loginResponse.collect{
                 if(it.success){
                     val token = it.data
-                    Toast.makeText(baseContext, "El usuario se ha autenticado corrctamente", Toast.LENGTH_LONG).show()
+                    Toast.makeText(baseContext, "El usuario se ha autenticado correctamente", Toast.LENGTH_LONG).show()
                     saveToken(token)
                 }else{
                     if (it.message!=""){
