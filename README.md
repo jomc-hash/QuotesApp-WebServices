@@ -1,4 +1,2 @@
-# QuotesApp-WebServices
-Aplicación de frases que consume datos de una API
-
-*Por el momento solo valida el usuario y contraseña.
+# QuotesMVVM
+Este proyecto está pensado para fines académicos y se irá agregando nuevas características conforme se avance en el curso
