@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         print(this.applicationContext)
         quoteViewModel.setContext(this)
-        quoteViewModel.getQuotes()
+        quoteViewModel.getQuotes("token")
         observer()
         binding.viewContainer.setOnClickListener {
             quoteViewModel.randomQuote()

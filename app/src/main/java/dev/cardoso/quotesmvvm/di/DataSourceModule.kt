@@ -31,9 +31,4 @@ abstract class DataSourceModule {
         quoteRemoteDataSourceImpl:QuoteRemoteDataSourceImpl
     ): QuoteRemoteDataSource
 
-    @Binds
-    abstract fun bindQuoteApi(
-        quoteApiImpl: QuoteApiImpl
-    ): QuoteApi
-
 }

@@ -23,8 +23,5 @@ abstract class UserModule {
         userRemoteDataSourceImpl: UserRemoteDataSourceImpl
     ): UserRemoteDataSource
 
-    @Binds
-    abstract fun bindUserApi(
-        userApiImpl: UserApiImpl
-    ): UserApi
+
 }
